@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Jose Vega
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  Resume STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://jvegar.online/}{\Large José E. Vega Raymondi}} & Email : \href{mailto:jvegar@uni.pe}{jvegar@uni.pe}\\
+  \href{http://jvegar.online/}{http://jvegar.online} & Mobile : +51-991139451 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Pacific}{Lima, Perú}
+      {Master in Finance - Invesment Portfolio Management}{Dic. 2014 -- Dic. 2016}
+    \resumeSubheading
+      {National University of Engineering}{Lima, Perú}
+      {Bachelor in Systems Engineering}{Ene. 2003 -- Dic. 2009}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Everis}{Lima, Perú}
+  {Centers Leader Specialist}{Sept 2020 - Today}
+  \resumeItemListStart
+    \resumeItem{Leadership}
+      {Mentoring junior members of the team, evaluating development work efforts and quality.}
+    \resumeItem{Backend Developement}
+      {DB Modelling (SQL Server, MySQL), MVC Application Development (CSharp), REST Service Development (CSharp, NodeJS, Express).}
+    \resumeItem{Front-End Development}
+      {UI Prototyping (Justinmid), Front-End Components Development (HTML,CSS,JavaScript, TypeScript,NodeJS), JS Frameworks (React and Angular).}
+    \resumeItem{DevOps}
+      {Kanban Board (MS Planner), GIT Repositories (Azure Devops), Pipelines (Azure Devops)}
+   
+  \resumeItemListEnd
+
+    \resumeSubheading
+      {Certero}{Lima, Perú}
+      {Solutions Architect}{Feb 2017 - Mar 2020}
+      \resumeItemListStart
+        \resumeItem{Data Architecture}
+          {DB Modelling (SQL Server), ETL development (SSIS, Azure Data Factory), dashboard designs (PowerBI).}
+        \resumeItem{Web Application Development Full Stack}
+          {Forms Design and Prototyping (UX/UI), Front-End Components Development (HTML,CSS,TypeScript, NodeJS, React), MVC .NET Application Development.}          
+        \resumeItem{Applications Architecture}
+          {Business and Application Layer Design, Process Mapping (BMPN), REST APIs Consuming and Building (.NET Core, NodeJS).}
+        \resumeItem{DevOps}
+          {Kanban Board (Trello), GIT Repositories (Gitlab), Containerization (Docker).}
+        \resumeItem{Cloud Architecture}
+          {Cloud Components Design (Azure), Script automating (Azure Cli, Powershell)}.    
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Evol TS Net}{ Lima, Perú}
+      {SharePoint Expert Consultant}{Ene 2014 - Ene 2017}
+      \resumeItemListStart
+        \resumeItem{Server-Side Development}
+          {Building SharePoint server-side components (Webparts, Event Receivers, TimerJobs). MVC Application development and WCF Services for integration with SAP.}
+        \resumeItem{SQL Server}
+          {Database modelling. DB Components Building (T-SQL). Queries optimization (indexes, temp tables).}        
+        \resumeItem{HTML, CSS y JS}
+          {Redesigning Front-end components for an Intranet using UX Design methodologies, responsive design (Bootstrap) and JS Libraries (JQuery, Knockout).} 
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CGI}{Lima, Perú}
+      {SharePoint Developer}{Dic 2011 - Dic 2013}
+      \resumeItemListStart
+        \resumeItem{SharePoint Server}
+          {SharePoint Farm configuration, and building new server-side components.}
+        \resumeItem{SQL Server Integration Services}
+          {Building ETLs for integration between SQL Server databases and Flat CSV files.}
+      \resumeItemListEnd
+%
+%    \resumeSubheading
+%      {Banco de la Nación}{Lima, Perú}
+%      {IT Infrastructure Analyst}{Jun 2009 - Jul 2011}
+%      \resumeItemListStart
+%        \resumeItem{IBM Portal Server}
+%          {Building Portlets and SOAP Web Services using Java.}
+%        \resumeItem{IBM Business Process Manager}
+%          {Implementing Proof of Concepts for process automation.}
+%      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    
+    \resumeSubItem{Developing custom Instituional Portal - Fonafe}
+      {Developing custom Content Management System using .NET Core, REST APIs, and MVC for Backend, and Angulas JS and Bootstrap for FrontEnd.}
+    \resumeSubItem{Developing custom Intranet - Acciona}
+      {Designing wireframes and Prototyping using Justinmid. Developing SharePoint Framework webparts using React, TypeScript and Fluent UI.}
+    \resumeSubItem{Automating MBP Process - Nestlé}
+      {Automating monthly business planning (MBP) process. Modelling process (BPMN) an database (tables, views, stored procedures, indexes, keys) using SQL Server.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    
+      \resumeSubItem{Languages}{: CSharp, Java, Python, Javascript, TypeScript}          
+      \resumeSubItem{Frameworks}{: .NET Framework, .NET Core, React JS, Express JS, Jest}      
+      \resumeSubItem{Methodologies}{: Waterfall, Agile, Kanban, DevOps}      
+      \resumeSubItem{Idioms}{: Spanish - Native / English - B2 Upper Intermediate}
+    
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

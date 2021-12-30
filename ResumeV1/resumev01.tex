@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Jose Vega
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  Resume STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://linkedin.com/in/josevegar}{\Large José E. Vega Raymondi}} & Email : \href{mailto:jvegar@uni.pe}{jvegar@uni.pe}\\
+  \href{https://linkedin.com/in/josevegar}{https://linkedin.com/in/josevegar} & Mobile : +51-991139451 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad del Pacífico}{Lima, Perú}
+      {Magister en Finanzas - Gestión de Portafolios de Inversión}{Dic. 2014 -- Dic. 2016}
+    \resumeSubheading
+      {Universidad Nacional de Ingeniería}{Lima, Perú}
+      {Bachiller en Ingeniería de Sistemas}{Ene. 2003 -- Dic. 2009}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experiencia}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+  {Everis}{Lima, Perú}
+  {Center Leader Specialist}{Oct 2020 - Actualidad}
+  \resumeItemListStart
+    \resumeItem{Liderazgo}
+      {A cargo de equipo de Microsoft para desarrollo de evolutivos y correctivos en los distintos clientes. Uso de metodología agil (planning, dailys, sprint reviews)}   
+    \resumeItem{Arquitectura de datos}
+      {Modelamiento de BD (Azure SQL, Postgres, Dataverse), diseño de tableros de control (PowerBI).}              
+    \resumeItem{Arquitectura de Aplicaciones}
+      {Diseño de componentes en la nube (Azure Active Directory, Azure Functions, Azure Web Apps, Azure Logic Apps, Power Platform).}
+      \resumeItem{Desarrollo de Aplicaciones Web Full Stack}
+      {Experiencia de usuario (UX/UI), desarrollo de componentes FrontEnd (JS, React), desarrollo de componentes servidor (NodeJS, .NET Core).}
+    \resumeItem{DevOps}
+      {Tablero Kanban (MS Planner), repositorios GIT y definición de pipelines (Azure Devops), uso de contenedores (Docker) y orquestador (Kubernetes)}
+   
+  \resumeItemListEnd
+
+    \resumeSubheading
+      {Certero}{Lima, Perú}
+      {Arquitecto de Soluciones}{Feb 2017 - Set 2020}
+      \resumeItemListStart
+        \resumeItem{Arquitectura de datos}
+          {Modelamiento de BD (SQL Server, Postgres), construcción de ETLs (SSIS, Azure Data Factory), diseño de tableros de control (PowerBI).}
+        \resumeItem{Desarrollo de Aplicaciones Web Full Stack}
+          {Diseño de formularios (UX/UI), desarrollo de componentes Front-End (HTML,CSS,JavaScript, Node), aplicaciones MVC .NET.}          
+        \resumeItem{Arquitectura de Aplicaciones}
+          {Diseño de las capas de aplicaciones y negocio. Mapeo de procesos (BMPN), Consumo y construcción de REST APIs (.NET Core, NodeJS).}
+ 
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Evol TS Net}{ Lima, Perú}
+      {Consultor Experto en SharePoint}{Ene 2014 - Ene 2017}
+      \resumeItemListStart
+        \resumeItem{Arquitectura de aplicaciones y datos}
+          {Diseño de arquitectura física (servidores, roles, redes), y de aplicaciones (modelo de datos, servicios)}
+        \resumeItem{SQL Server}
+          {Dimensionamiento de bases de datos. Construcción de componentes (T-SQL). Optimización de queries (índices, tablas temporales).}        
+        \resumeItem{HTML, CSS y JS}
+          {Rediseño de la nueva página principal de la Intranet utilizando metodologías UX Design, incluyendo diseño responsivo.}
+        \resumeItem{Flujos de trabajo}
+          {Modelamiento de procesos de colaboración BPMN utilizando Bizagi y SharePoint Designer.}        
+      \resumeItemListEnd
+
+%    \resumeSubheading
+%      {CGI}{Lima, Perú}
+%      {Analista Programador}{Dic 2011, Dic 2013}
+%      \resumeItemListStart
+%        \resumeItem{SharePoint Server}
+%          {Configuración de granja SharePoint, instalación de nuevos servidores. Construcción de funcionalidades.}
+%        \resumeItem{SQL Server Integration Services}
+%          {Construcción de ETL para la integración de bases de datos SQL y archivos CSV.}
+%      \resumeItemListEnd
+
+%    \resumeSubheading
+%      {Banco de la Nación}{Lima, Perú}
+%      {Analista de Infraestructura de TI}{Jun 2009 - Jul 2011}
+%      \resumeItemListStart
+%        \resumeItem{IBM Portal Server}
+%          {Construcción de Portlets utilizando Java, y construcción de Web Services SOAP.}
+%        \resumeItem{IBM Business Process Manager}
+%          {Implementación de Pruebas de Concepto de Flujo de Proceso BPM.}
+%      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Proyectos}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Agilización Proceso MBP - Nestlé}
+      {Automatización del proceso de planificación mensual (MBP). Integración de datos mediante SQL (T-SQL y SSIS), SharePoint y macros Excel.}
+    \resumeSubItem{Implementación Tablero de  Colocaciones - Fondo Mivivienda}
+      {Construcción de tablero de control de Colocaciones del Fondo Mivivienda y Techo Propio. Extracción de datos (SSIS), diseño del tablero (PowerBI, DAX)}
+    \resumeSubItem{Migración de Aplicación Legacy a la nube - Celima}
+      {Rediseño y despliegue de los componentes legacy para llevarlos a la nube (Azure).}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Conocimientos}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Lenguajes}{: CSharp, Java, Python, Javascript, C++, SQL}
+      \hfill
+      \textbf{Tecnologías}{: AWS, Azure, SharePoint, Forms}      
+      \textbf{Idiomas}{: Inglés Nivel Avanzado}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
