@@ -15,3 +15,9 @@ $ sudo apt install texlive-latex-extra -y
 ```
 $ latex --version
 ```
+# Create PDF
+## Ubuntu
+1. To generate a PDF file execute the following command:
+```
+$ pdflatex [File Path]
+```
