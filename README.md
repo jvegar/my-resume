@@ -15,8 +15,18 @@ $ sudo apt install texlive-latex-extra -y
 ```
 $ latex --version
 ```
+## macOS
+1. Install basic package using brew
+```
+$ brew install basictex
+```
+2. Install more packages with tlmgr
+```
+$ sudo tlmgr update --self
+$ sudo tlmgr install collection-latexextra
+```
 # Create PDF
-## Ubuntu
+## Ubuntu & macOS
 1. To generate a PDF file execute the following command:
 ```
 $ pdflatex [File Path]
