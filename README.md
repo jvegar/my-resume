@@ -58,14 +58,14 @@ e.g., /usr/local/texlive/2024/bin/x86_64-linux
 
 1. To generate a PDF file execute the compile_tex script:
 
-a. Give execution permissions to `compite_tex.sh` script
+a. Give execution permissions to `compile_tex.sh` script
 
 ```
-chmod +x compite_tex.sh
+chmod +x compile_tex.sh
 ```
 
 b. Run the script to generate pdf
 
 ```
-$ ./compite_tex.sh [Tex File Path]
+$ ./compile_tex.sh [Tex File Path]
 ```
